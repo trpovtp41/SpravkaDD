@@ -12,5 +12,6 @@
         <Button x:Name="button" Click="MyButton_Click"  Content="Зарегистрироваться" HorizontalAlignment="Stretch" Margin="56,73,56,0" VerticalAlignment="Top" />
         <Button x:Name="button1" Click="button1_Click" Content="Войти" HorizontalAlignment="Stretch" Margin="146,276,146,0" VerticalAlignment="Top"/>
         <TextBlock x:Name="textBlock" Margin="118,203,118,0" TextWrapping="Wrap" Text="Уже есть аккаунт?" VerticalAlignment="Top" FontSize="20"/>
+        
     </Grid>
 </Page>
