@@ -22,6 +22,9 @@ namespace SpravkaDD
     /// </summary>
     public sealed partial class AvtorizForm : Page
     {
+        private string user_login = "name";
+        private string user_pass = "qwerty";
+        private bool b = false;
         public AvtorizForm()
         {
             this.InitializeComponent();
@@ -39,6 +42,14 @@ namespace SpravkaDD
         private void button1_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(MainPage));
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            if ((user_login == Login.Text)&&(user_pass ==Parol.Text))
+            {
+                b = true;
+            }
         }
     }
 }

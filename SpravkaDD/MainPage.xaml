@@ -9,8 +9,9 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Button x:Name="button" Click="MyButton_Click"  Content="Зарегистрироваться" HorizontalAlignment="Stretch" Margin="56,73,56,0" VerticalAlignment="Top" />
-        <Button x:Name="button1" Click="button1_Click" Content="Войти" HorizontalAlignment="Stretch" Margin="146,276,146,0" VerticalAlignment="Top"/>
-        <TextBlock x:Name="textBlock" Margin="118,203,118,0" TextWrapping="Wrap" Text="Уже есть аккаунт?" VerticalAlignment="Top" FontSize="20"/>
+        <Button x:Name="button" Click="MyButton_Click"  Content="Зарегистрироваться" HorizontalAlignment="Stretch" Margin="57,274,55,0" VerticalAlignment="Top" FontSize="24" />
+        <Button x:Name="button1" Click="button1_Click" Content="Войти" HorizontalAlignment="Stretch" Margin="140,429,141,0" VerticalAlignment="Top" FontSize="24" RenderTransformOrigin="0.826,0.579"/>
+        <TextBlock x:Name="textBlock" Margin="102,393,100,0" TextWrapping="Wrap" Text="Уже есть аккаунт?" VerticalAlignment="Top" FontSize="24"/>
+        <Image Source="Assets/MG.png" HorizontalAlignment="Left" Height="147" Margin="106,26,0,0" VerticalAlignment="Top" Width="189"/>
     </Grid>
 </Page>

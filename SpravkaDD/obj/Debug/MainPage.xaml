@@ -9,10 +9,10 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Button x:ConnectionId='1' x:Name="button"                         Content="Зарегистрироваться" HorizontalAlignment="Stretch" Margin="56,73,56,0" VerticalAlignment="Top" />
-        <Button x:Name="button1" Content="Войти" HorizontalAlignment="Stretch" Margin="146,276,146,0" VerticalAlignment="Top"/>
-        <TextBlock x:Name="textBlock" Margin="118,203,118,0" TextWrapping="Wrap" Text="Уже есть аккаунт?" VerticalAlignment="Top" FontSize="20"/>
-        <HyperlinkButton x:Name="Registration" Content="Зарегистрироваться" NavigateUri="/RegForm.xaml" Margin="75,354,0,239"></HyperlinkButton>
+        <Button x:ConnectionId='1' x:Name="button"                         Content="Зарегистрироваться" HorizontalAlignment="Stretch" Margin="57,274,55,0" VerticalAlignment="Top" FontSize="24" />
+        <Button x:ConnectionId='2' x:Name="button1"                       Content="Войти" HorizontalAlignment="Stretch" Margin="140,429,141,0" VerticalAlignment="Top" FontSize="24" RenderTransformOrigin="0.826,0.579"/>
+        <TextBlock x:Name="textBlock" Margin="102,393,100,0" TextWrapping="Wrap" Text="Уже есть аккаунт?" VerticalAlignment="Top" FontSize="24"/>
+        <Image Source="Assets/MG.png" HorizontalAlignment="Left" Height="147" Margin="106,26,0,0" VerticalAlignment="Top" Width="189"/>
     </Grid>
 </Page>
 
