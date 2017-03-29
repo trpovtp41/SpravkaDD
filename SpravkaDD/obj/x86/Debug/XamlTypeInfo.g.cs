@@ -124,19 +124,21 @@ namespace SpravkaDD.SpravkaDD_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[5];
+            _typeNameTable = new string[6];
             _typeNameTable[0] = "SpravkaDD.AvtorizForm";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "SpravkaDD.MainPage";
-            _typeNameTable[4] = "SpravkaDD.RegForm";
+            _typeNameTable[3] = "SpravkaDD.RegForm2";
+            _typeNameTable[4] = "SpravkaDD.MainPage";
+            _typeNameTable[5] = "SpravkaDD.RegForm";
 
-            _typeTable = new global::System.Type[5];
+            _typeTable = new global::System.Type[6];
             _typeTable[0] = typeof(global::SpravkaDD.AvtorizForm);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::SpravkaDD.MainPage);
-            _typeTable[4] = typeof(global::SpravkaDD.RegForm);
+            _typeTable[3] = typeof(global::SpravkaDD.RegForm2);
+            _typeTable[4] = typeof(global::SpravkaDD.MainPage);
+            _typeTable[5] = typeof(global::SpravkaDD.RegForm);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -172,8 +174,9 @@ namespace SpravkaDD.SpravkaDD_XamlTypeInfo
         }
 
         private object Activate_0_AvtorizForm() { return new global::SpravkaDD.AvtorizForm(); }
-        private object Activate_3_MainPage() { return new global::SpravkaDD.MainPage(); }
-        private object Activate_4_RegForm() { return new global::SpravkaDD.RegForm(); }
+        private object Activate_3_RegForm2() { return new global::SpravkaDD.RegForm2(); }
+        private object Activate_4_MainPage() { return new global::SpravkaDD.MainPage(); }
+        private object Activate_5_RegForm() { return new global::SpravkaDD.RegForm(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -200,16 +203,23 @@ namespace SpravkaDD.SpravkaDD_XamlTypeInfo
                 xamlType = new global::SpravkaDD.SpravkaDD_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  SpravkaDD.MainPage
+            case 3:   //  SpravkaDD.RegForm2
                 userType = new global::SpravkaDD.SpravkaDD_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_3_MainPage;
+                userType.Activator = Activate_3_RegForm2;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 4:   //  SpravkaDD.RegForm
+            case 4:   //  SpravkaDD.MainPage
                 userType = new global::SpravkaDD.SpravkaDD_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_4_RegForm;
+                userType.Activator = Activate_4_MainPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 5:   //  SpravkaDD.RegForm
+                userType = new global::SpravkaDD.SpravkaDD_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_5_RegForm;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -547,5 +557,7 @@ namespace SpravkaDD.SpravkaDD_XamlTypeInfo
         }
     }
 }
+
+
 
 

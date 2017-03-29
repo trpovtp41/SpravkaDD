@@ -20,6 +20,8 @@
         <TextBlock x:Name="textBlock1_Copy2" HorizontalAlignment="Left" Margin="39,312,0,0" TextWrapping="Wrap" Text="Ваш пол" VerticalAlignment="Top" FontSize="20"/>
         <TextBox x:Name="familia_Copy" Margin="39,491,39,0" TextWrapping="Wrap" VerticalAlignment="Top" PlaceholderText="ДД.ММ.ГГГГ" Height="30"/>
         <TextBlock x:Name="textBlock1_Copy3" HorizontalAlignment="Left" Margin="39,462,0,0" TextWrapping="Wrap" Text="Дата рождения" VerticalAlignment="Top" FontSize="20"/>
+        <Button x:ConnectionId='1' x:Name="button" Content="Далее..." HorizontalAlignment="Left" Margin="215,559,0,0" VerticalAlignment="Top" Width="146"                     />
+        <Button x:ConnectionId='2' x:Name="button1" Content="Назад" HorizontalAlignment="Left" Margin="39,559,0,0" VerticalAlignment="Top"                      />
 
     </Grid>
 </Page>

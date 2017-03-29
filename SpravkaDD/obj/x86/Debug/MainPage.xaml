@@ -12,8 +12,6 @@
         <Button x:ConnectionId='1' x:Name="button"                         Content="Зарегистрироваться" HorizontalAlignment="Stretch" Margin="56,73,56,0" VerticalAlignment="Top" />
         <Button x:ConnectionId='2' x:Name="button1"                       Content="Войти" HorizontalAlignment="Stretch" Margin="146,276,146,0" VerticalAlignment="Top"/>
         <TextBlock x:Name="textBlock" Margin="118,203,118,0" TextWrapping="Wrap" Text="Уже есть аккаунт?" VerticalAlignment="Top" FontSize="20"/>
-        <HyperlinkButton x:Name="Registration" Content="Зарегистрироваться" NavigateUri="/RegForm.xaml" Margin="75,354,0,239"></HyperlinkButton>
-        <HyperlinkButton x:Name="Authorization" Content="Зарегистрироваться" NavigateUri="/AvtorizForm.xaml" Margin="75,354,0,239"></HyperlinkButton>
     </Grid>
 </Page>
 

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>BORLAND</Machine>
-    <WindowsUser>BorLand</WindowsUser>
+    <Machine>WIN-BRK11AHTBN4</Machine>
+    <WindowsUser>User</WindowsUser>
     <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
     <TargetOsVersion>6.3</TargetOsVersion>
     <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
@@ -10,73 +10,79 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>27769bb0-f784-4688-9d37-395b9ffff4c4</PackageIdentityName>
     <PackageIdentityPublisher>CN=BorLand</PackageIdentityPublisher>
-    <IntermediateOutputPath>E:\GitHub\SpravkaDD\SpravkaDD\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\УЧЕБА\SpravkaDD\SpravkaDD\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\x86\Debug\AppxManifest.xml">
+    <AppXManifest Include="D:\УЧЕБА\SpravkaDD\SpravkaDD\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\x86\Debug\SpravkaDD.exe">
+    <AppxPackagedFile Include="D:\УЧЕБА\SpravkaDD\SpravkaDD\bin\x86\Debug\SpravkaDD.exe">
       <PackagePath>SpravkaDD.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\packages\SQLitePCL.3.8.7.2\lib\wpa81\SQLitePCL.dll">
+    <AppxPackagedFile Include="D:\УЧЕБА\SpravkaDD\packages\SQLitePCL.3.8.7.2\lib\wpa81\SQLitePCL.dll">
       <PackagePath>SQLitePCL.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\SQLite.WP81\3.15.2\Redist\Debug\x86\sqlite3.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\SQLite.WP81\3.17.0\Redist\Debug\x86\sqlite3.dll">
       <PackagePath>sqlite3.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\packages\SQLitePCL.3.8.7.2\build\wpa81\SQLitePCL.Ext.dll">
+    <AppxPackagedFile Include="D:\УЧЕБА\SpravkaDD\packages\SQLitePCL.3.8.7.2\build\wpa81\SQLitePCL.Ext.dll">
       <PackagePath>SQLitePCL.Ext.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\Assets\Logo.scale-240.png">
+    <AppxPackagedFile Include="D:\УЧЕБА\SpravkaDD\SpravkaDD\Assets\Logo.scale-240.png">
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\Assets\SmallLogo.scale-240.png">
+    <AppxPackagedFile Include="D:\УЧЕБА\SpravkaDD\SpravkaDD\Assets\MG.png">
+      <PackagePath>Assets\MG.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\УЧЕБА\SpravkaDD\SpravkaDD\Assets\SmallLogo.scale-240.png">
       <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\Assets\SplashScreen.scale-240.png">
+    <AppxPackagedFile Include="D:\УЧЕБА\SpravkaDD\SpravkaDD\Assets\SplashScreen.scale-240.png">
       <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\Assets\Square71x71Logo.scale-240.png">
+    <AppxPackagedFile Include="D:\УЧЕБА\SpravkaDD\SpravkaDD\Assets\Square71x71Logo.scale-240.png">
       <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\Assets\StoreLogo.scale-240.png">
+    <AppxPackagedFile Include="D:\УЧЕБА\SpravkaDD\SpravkaDD\Assets\StoreLogo.scale-240.png">
       <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\Assets\WideLogo.scale-240.png">
+    <AppxPackagedFile Include="D:\УЧЕБА\SpravkaDD\SpravkaDD\Assets\WideLogo.scale-240.png">
       <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\DB.mdf">
+    <AppxPackagedFile Include="D:\УЧЕБА\SpravkaDD\SpravkaDD\DB.mdf">
       <PackagePath>DB.mdf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\x86\Debug\SpravkaDD.xr.xml">
+    <AppxPackagedFile Include="D:\УЧЕБА\SpravkaDD\SpravkaDD\bin\x86\Debug\SpravkaDD.xr.xml">
       <PackagePath>SpravkaDD.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\УЧЕБА\SpravkaDD\SpravkaDD\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\x86\Debug\AvtorizForm.xbf">
+    <AppxPackagedFile Include="D:\УЧЕБА\SpravkaDD\SpravkaDD\bin\x86\Debug\AvtorizForm.xbf">
       <PackagePath>AvtorizForm.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\УЧЕБА\SpravkaDD\SpravkaDD\bin\x86\Debug\RegForm2.xbf">
+      <PackagePath>RegForm2.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\УЧЕБА\SpravkaDD\SpravkaDD\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\x86\Debug\RegForm.xbf">
+    <AppxPackagedFile Include="D:\УЧЕБА\SpravkaDD\SpravkaDD\bin\x86\Debug\RegForm.xbf">
       <PackagePath>RegForm.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\УЧЕБА\SpravkaDD\SpravkaDD\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
