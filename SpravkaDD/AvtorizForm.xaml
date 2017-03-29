@@ -15,6 +15,7 @@
         <TextBox x:Name="Parol" HorizontalAlignment="Left" Margin="56,321,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="283" Height="55" FontSize="36" TextAlignment="Center"/>
         <Button x:Name="button" Content="Войти" HorizontalAlignment="Left" Margin="103,410,0,0" VerticalAlignment="Top" Height="86" Width="201" FontSize="36"/>
         <TextBox x:Name="Login" HorizontalAlignment="Left" Margin="56,172,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="283" Height="55" FontSize="36" TextAlignment="Center"/>
+        <Button x:Name="button1" Content="Назад" HorizontalAlignment="Left" Margin="103,507,0,0" VerticalAlignment="Top" Width="201" Height="77" FontSize="36" Click="button1_Click"/>
 
     </Grid>
 </Page>

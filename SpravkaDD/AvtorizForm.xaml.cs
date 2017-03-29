@@ -35,5 +35,10 @@ namespace SpravkaDD
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
         }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage));
+        }
     }
 }
