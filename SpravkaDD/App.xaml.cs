@@ -27,7 +27,6 @@ namespace SpravkaDD
     {
         
         private TransitionCollection transitions;
-
         /// <summary>
         /// Initializes the singleton application object.  This is the first line of authored code
         /// executed, and as such is the logical equivalent of main() or WinMain().
@@ -45,6 +44,8 @@ namespace SpravkaDD
         /// </summary>
         /// <param name="e">Details about the launch request and process.</param>
         public static DbRepos q;
+        private object naimenovanieBox;
+
         protected override async void OnLaunched(LaunchActivatedEventArgs e)
         {
 #if DEBUG
@@ -133,6 +134,13 @@ namespace SpravkaDD
 
             // TODO: Save application state and stop any background activity
             deferral.Complete();
+        }
+
+
+        private void addButton_Click(object sender, RoutedEventArgs e)
+        {
+           
+            
         }
     }
 }

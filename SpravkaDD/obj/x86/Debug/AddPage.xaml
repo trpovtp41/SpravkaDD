@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="SQLLiteApp.AddPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SpravkaDD"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="Новый элемент" Style="{ThemeResource HeaderTextBlockStyle}" />
+            <TextBox x:Name="naimenovanieBox" PlaceholderText="Категория" />
+            <TextBox x:Name="categoryBox" PlaceholderText="Категория" />
+            <TextBox x:Name="subcategoryBox" PlaceholderText="Субкатегория" />
+            <TextBox x:Name="adresBox" PlaceholderText="Адресс" />
+            <TextBox x:Name="telephonesBox" PlaceholderText="Телефон" />
+            <TextBox x:Name="raionBox" PlaceholderText="Район" />
+            <TextBox x:Name="infoBox" PlaceholderText="Иформация" />
+            <Button x:ConnectionId='1' x:Name="addButton" Content="Добавить"                         />
+        </StackPanel>
+    </Grid>
+</Page>
+
