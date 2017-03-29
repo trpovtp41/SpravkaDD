@@ -233,3 +233,11 @@ D:\УЧЕБА\SpravkaDD\SpravkaDD\obj\x86\Debug\RegForm2.g.cs
 D:\УЧЕБА\SpravkaDD\SpravkaDD\obj\x86\Debug\RegForm2.xaml
 D:\УЧЕБА\SpravkaDD\SpravkaDD\obj\x86\Debug\RegForm2.xbf
 D:\УЧЕБА\SpravkaDD\SpravkaDD\obj\x86\Debug\SpravkaDD.csprojResolveAssemblyReference.cache
+D:\УЧЕБА\SpravkaDD\SpravkaDD\obj\x86\Debug\SQLitePCL\layout.resfiles
+D:\УЧЕБА\SpravkaDD\SpravkaDD\obj\x86\Debug\SQLitePCL\layout.resfiles.intermediate
+D:\УЧЕБА\SpravkaDD\SpravkaDD\obj\x86\Debug\SQLitePCL\Resources.resfiles
+D:\УЧЕБА\SpravkaDD\SpravkaDD\obj\x86\Debug\SQLitePCL\Resources.resfiles.intermediate
+D:\УЧЕБА\SpravkaDD\SpravkaDD\obj\x86\Debug\SQLitePCL\pri.resfiles
+D:\УЧЕБА\SpravkaDD\SpravkaDD\obj\x86\Debug\SQLitePCL\pri.resfiles.intermediate
+D:\УЧЕБА\SpravkaDD\SpravkaDD\obj\x86\Debug\SQLitePCL\priconfig.xml
+D:\УЧЕБА\SpravkaDD\SpravkaDD\obj\x86\Debug\SQLitePCL\priconfig.xml.intermediate
