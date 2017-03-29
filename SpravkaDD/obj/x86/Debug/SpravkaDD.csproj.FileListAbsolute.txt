@@ -176,3 +176,5 @@ E:\GitHub\SpravkaDD\SpravkaDD\obj\x86\Debug\AvtorizForm.g.i.cs
 E:\GitHub\SpravkaDD\SpravkaDD\obj\x86\Debug\AvtorizForm.g.cs
 E:\GitHub\SpravkaDD\SpravkaDD\obj\x86\Debug\AvtorizForm.xaml
 E:\GitHub\SpravkaDD\SpravkaDD\obj\x86\Debug\AvtorizForm.xbf
+C:\Users\BorLand\Desktop\SpravkaDD\SpravkaDD\obj\x86\Debug\SpravkaDD.exe
+C:\Users\BorLand\Desktop\SpravkaDD\SpravkaDD\obj\x86\Debug\SpravkaDD.pdb
