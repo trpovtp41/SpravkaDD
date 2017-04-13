@@ -23,6 +23,11 @@ using System.Collections.ObjectModel;
 
 namespace SpravkaDD
 {
+    public class AdminTrue
+    {
+        public bool at { get; set; }
+    }
+
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
@@ -30,11 +35,15 @@ namespace SpravkaDD
     
     public sealed partial class MainPage : Page
     {
+        
         public MainPage()
         {
             this.InitializeComponent();
 
             this.NavigationCacheMode = NavigationCacheMode.Required;
+
+            
+
         }
 
         /// <summary>
@@ -55,7 +64,6 @@ namespace SpravkaDD
         private void MyButton_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(RegForm));
-
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)

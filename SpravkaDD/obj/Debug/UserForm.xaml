@@ -9,7 +9,28 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
+        <Button x:Name="button_AddCategory" Content="Добавить категорию" HorizontalAlignment="Stretch" Margin="35,569,35,0" VerticalAlignment="Top" FontSize="24"/>
+        <TextBox x:Name="textBox_AddCategory" Margin="10,519,10,0" TextWrapping="Wrap" Text="Напишите категорию" VerticalAlignment="Top"/>
+        <ListBox x:ConnectionId='1' x:Name="listBox" Height="500" Margin="10,8,10,0" VerticalAlignment="Top" SelectionMode="Single"                                            >
+            <ListBoxItem>
+                <StackPanel Orientation="Horizontal" >
+                    <Image Source="Assets/Здоровье.jpg" Width="52" Height="56" VerticalAlignment="Top" />
+                    <TextBlock x:Name="textBlock" TextWrapping="Wrap" Text="Здоровье" RenderTransformOrigin="-3.4,0.678" Height="49" VerticalAlignment="Top" Width="285" FontSize="36" TextAlignment="Center"/>
+                </StackPanel>
+            </ListBoxItem>
+            <ListBoxItem Name="Питание" >
+                <StackPanel Orientation="Horizontal" >
+                    <Image Source="Assets/Питание.jpg" Width="52" Height="56" VerticalAlignment="Top" />
+                    <TextBlock x:Name="textBlock1" TextWrapping="Wrap" Text="Питание" RenderTransformOrigin="-3.4,0.678" Height="49" VerticalAlignment="Top" Width="285" FontSize="36" TextAlignment="Center"/>
+                </StackPanel>
+            </ListBoxItem>
+            <ListBoxItem>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="Assets/Развлечение.jpg" Width="52" Height="56" VerticalAlignment="Top" />
+                    <TextBlock x:Name="textBlock2" TextWrapping="Wrap" Text="Развлечения" RenderTransformOrigin="-3.4,0.678" Height="49" VerticalAlignment="Top" Width="285" FontSize="36" TextAlignment="Center"/>
+                </StackPanel>
+            </ListBoxItem>
+        </ListBox>
     </Grid>
 </Page>
 

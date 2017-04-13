@@ -10,73 +10,115 @@
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>27769bb0-f784-4688-9d37-395b9ffff4c4</PackageIdentityName>
     <PackageIdentityPublisher>CN=BorLand</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\BorLand\Desktop\SpravkaDD\SpravkaDD\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>E:\GitHub\SpravkaDD\SpravkaDD\obj\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\BorLand\Desktop\SpravkaDD\SpravkaDD\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\BorLand\Desktop\SpravkaDD\SpravkaDD\bin\Debug\SpravkaDD.exe">
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\Debug\SpravkaDD.exe">
       <PackagePath>SpravkaDD.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\BorLand\Desktop\SpravkaDD\SpravkaDD\Assets\Logo.scale-240.png">
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\Assets\Logo.scale-240.png">
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\BorLand\Desktop\SpravkaDD\SpravkaDD\Assets\MG.png">
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\Assets\MG.png">
       <PackagePath>Assets\MG.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\BorLand\Desktop\SpravkaDD\SpravkaDD\Assets\SmallLogo.scale-240.png">
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\Assets\SmallLogo.scale-240.png">
       <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\BorLand\Desktop\SpravkaDD\SpravkaDD\Assets\SplashScreen.scale-240.png">
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\Assets\SplashScreen.scale-240.png">
       <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\BorLand\Desktop\SpravkaDD\SpravkaDD\Assets\Square71x71Logo.scale-240.png">
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\Assets\Square71x71Logo.scale-240.png">
       <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\BorLand\Desktop\SpravkaDD\SpravkaDD\Assets\StoreLogo.scale-240.png">
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\Assets\StoreLogo.scale-240.png">
       <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\BorLand\Desktop\SpravkaDD\SpravkaDD\Assets\WideLogo.scale-240.png">
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\Assets\WideLogo.scale-240.png">
       <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\BorLand\Desktop\SpravkaDD\SpravkaDD\bin\Debug\SpravkaDD.xr.xml">
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\Assets\Аптека.jpg">
+      <PackagePath>Assets\Аптека.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\Assets\Больница.jpg">
+      <PackagePath>Assets\Больница.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\Assets\Здоровье.jpg">
+      <PackagePath>Assets\Здоровье.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\Assets\Кафе.jpg">
+      <PackagePath>Assets\Кафе.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\Assets\Кинотеатры.jpg">
+      <PackagePath>Assets\Кинотеатры.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\Assets\Клубы.jpg">
+      <PackagePath>Assets\Клубы.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\Assets\питание.jpg">
+      <PackagePath>Assets\питание.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\Assets\Развлечение.jpg">
+      <PackagePath>Assets\Развлечение.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\Assets\Рестораны.jpg">
+      <PackagePath>Assets\Рестораны.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\Debug\SpravkaDD.xr.xml">
       <PackagePath>SpravkaDD.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\BorLand\Desktop\SpravkaDD\SpravkaDD\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\BorLand\Desktop\SpravkaDD\SpravkaDD\bin\Debug\AdminForm.xbf">
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\Debug\AdminForm.xbf">
       <PackagePath>AdminForm.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\BorLand\Desktop\SpravkaDD\SpravkaDD\bin\Debug\AvtorizForm.xbf">
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\Debug\AvtorizForm.xbf">
       <PackagePath>AvtorizForm.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\BorLand\Desktop\SpravkaDD\SpravkaDD\bin\Debug\RegForm2.xbf">
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\Debug\Location\Аптеки.xbf">
+      <PackagePath>Location\Аптеки.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\Debug\Location\Больницы.xbf">
+      <PackagePath>Location\Больницы.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\Debug\RegForm2.xbf">
       <PackagePath>RegForm2.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\BorLand\Desktop\SpravkaDD\SpravkaDD\bin\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\BorLand\Desktop\SpravkaDD\SpravkaDD\bin\Debug\RegForm.xbf">
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\Debug\RegForm.xbf">
       <PackagePath>RegForm.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\BorLand\Desktop\SpravkaDD\SpravkaDD\bin\Debug\UserForm.xbf">
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\Debug\Развлечение_Sub.xbf">
+      <PackagePath>Развлечение_Sub.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\Debug\UserForm.xbf">
       <PackagePath>UserForm.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\BorLand\Desktop\SpravkaDD\SpravkaDD\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\Debug\Здоровье_Sub.xbf">
+      <PackagePath>Здоровье_Sub.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\Debug\Питание_Sub.xbf">
+      <PackagePath>Питание_Sub.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>

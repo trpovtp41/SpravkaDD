@@ -21,7 +21,7 @@ namespace SpravkaDD
     /// Пустая страница, которую можно использовать саму по себе или для перехода внутри фрейма.
     /// </summary>
     public sealed partial class AdminForm : Page
-    {
+    { 
         public AdminForm()
         {
             this.InitializeComponent();

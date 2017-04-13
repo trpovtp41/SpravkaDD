@@ -1,1 +1,1 @@
-C:\Users\BorLand\Desktop\SpravkaDD\SpravkaDD\SpravkaDD.csproj;neutral
+E:\GitHub\SpravkaDD\SpravkaDD\SpravkaDD.csproj;neutral
