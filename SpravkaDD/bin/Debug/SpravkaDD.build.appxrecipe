@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DETACH</Machine>
+    <Machine>HAMSTERS</Machine>
     <WindowsUser>BorLand</WindowsUser>
     <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
     <TargetOsVersion>6.3</TargetOsVersion>
@@ -29,6 +29,9 @@
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\Assets\MG.png">
+      <PackagePath>Assets\MG.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\Assets\SmallLogo.scale-240.png">
       <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -49,8 +52,32 @@
       <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\DB.mdf">
-      <PackagePath>DB.mdf</PackagePath>
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\Assets\Аптека.jpg">
+      <PackagePath>Assets\Аптека.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\Assets\Больница.jpg">
+      <PackagePath>Assets\Больница.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\Assets\Здоровье.jpg">
+      <PackagePath>Assets\Здоровье.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\Assets\Кафе.jpg">
+      <PackagePath>Assets\Кафе.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\Assets\Кинотеатры.jpg">
+      <PackagePath>Assets\Кинотеатры.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\Assets\Клубы.jpg">
+      <PackagePath>Assets\Клубы.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\Assets\питание.jpg">
+      <PackagePath>Assets\питание.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\Assets\Развлечение.jpg">
+      <PackagePath>Assets\Развлечение.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\Assets\Рестораны.jpg">
+      <PackagePath>Assets\Рестораны.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\Debug\SpravkaDD.xr.xml">
       <PackagePath>SpravkaDD.xr.xml</PackagePath>
@@ -58,11 +85,38 @@
     <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\Debug\AdminForm.xbf">
+      <PackagePath>AdminForm.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\Debug\AvtorizForm.xbf">
+      <PackagePath>AvtorizForm.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\Debug\Location\Аптеки.xbf">
+      <PackagePath>Location\Аптеки.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\Debug\Location\Больницы.xbf">
+      <PackagePath>Location\Больницы.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\Debug\RegForm2.xbf">
+      <PackagePath>RegForm2.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\Debug\RegForm.xbf">
       <PackagePath>RegForm.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\Debug\Развлечение_Sub.xbf">
+      <PackagePath>Развлечение_Sub.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\Debug\UserForm.xbf">
+      <PackagePath>UserForm.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\Debug\Здоровье_Sub.xbf">
+      <PackagePath>Здоровье_Sub.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\Debug\Питание_Sub.xbf">
+      <PackagePath>Питание_Sub.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\SpravkaDD\SpravkaDD\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>

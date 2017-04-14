@@ -9,12 +9,12 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="65,66,0,0" TextWrapping="Wrap" Text="Администратор" VerticalAlignment="Top" Height="67" Width="292" FontSize="36"/>
-        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="141,124,0,0" TextWrapping="Wrap" Text="Логин" VerticalAlignment="Top" FontSize="36"/>
-        <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="141,273,0,0" TextWrapping="Wrap" Text="Пароль" VerticalAlignment="Top" FontSize="36"/>
-        <TextBox x:Name="Parol" HorizontalAlignment="Left" Margin="56,321,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="283" Height="55" FontSize="36" TextAlignment="Center"/>
-        <Button x:Name="button" Content="Войти" HorizontalAlignment="Left" Margin="103,410,0,0" VerticalAlignment="Top" Height="86" Width="201" FontSize="36"/>
-        <TextBox x:Name="Login" HorizontalAlignment="Left" Margin="56,172,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="283" Height="55" FontSize="36" TextAlignment="Center"/>
-
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="164,221,0,0" TextWrapping="Wrap" Text="Логин" VerticalAlignment="Top" FontSize="24"/>
+        <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="154,370,0,0" TextWrapping="Wrap" Text="Пароль" VerticalAlignment="Top" FontSize="24"/>
+        <TextBox x:Name="Parol" HorizontalAlignment="Left" Margin="60,403,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="283" Height="39" FontSize="22" TextAlignment="Center"/>
+        <Button x:Name="button" Click="button_Click" Content="Войти" HorizontalAlignment="Left" Margin="225,522,0,0" VerticalAlignment="Top" Height="66" Width="145" FontSize="24"/>
+        <TextBox x:Name="Login" HorizontalAlignment="Left" Margin="60,254,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="283" Height="39" FontSize="22" TextAlignment="Center"/>
+        <Button x:Name="button1" Content="Назад" HorizontalAlignment="Left" Margin="40,522,0,0" VerticalAlignment="Top" Width="144" Height="66" FontSize="24" Click="button1_Click"/>
+        <Image Source="Assets/MG.png" HorizontalAlignment="Left" Height="147" Margin="106,26,0,0" VerticalAlignment="Top" Width="189"/>
     </Grid>
 </Page>

@@ -22,6 +22,10 @@ namespace SpravkaDD
     /// </summary>
     public sealed partial class AvtorizForm : Page
     {
+        private string user_login = "name";
+        private string user_pass = "qwerty";
+        private string admin_login = "admin";
+        private string admin_pass = "root";
         public AvtorizForm()
         {
             this.InitializeComponent();
@@ -34,6 +38,26 @@ namespace SpravkaDD
         /// Этот параметр обычно используется для настройки страницы.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage));
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            if ((user_login == Login.Text) && (user_pass == Parol.Text))
+            {
+                AdminTrue at = new AdminTrue { at = false };
+                this.Frame.Navigate(typeof(UserForm), at);
+            }
+
+            if ((admin_login == Login.Text) && (admin_pass == Parol.Text))
+            {
+                AdminTrue at = new AdminTrue { at = true };
+                this.Frame.Navigate(typeof(UserForm),at);
+            }
         }
     }
 }
